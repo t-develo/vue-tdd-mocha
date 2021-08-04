@@ -5,8 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "test:coverage": "nyc --nyc-config nyc.config.js vue-cli-service test:unit --require tests/setup.js",
+    "test:unit": "vue-cli-service test:unit --ui tdd",
+    "test:coverage": "nyc --nyc-config nyc.config.js vue-cli-service test:unit --require tests/setup.js --ui tdd",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
